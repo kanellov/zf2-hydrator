@@ -3,9 +3,9 @@
 /**
  * Knlv\Zf2\Hydrator\Strategy\DateTimeStrategy
  *
- * @link https://github.com/kanellov/zf2-authentication
+ * @link https://github.com/kanellov/zf2-hydrator
  * @copyright Copyright (c) 2015 Vassilis Kanellopoulos - contact@kanellov.com
- * @license https://raw.githubusercontent.com/kanellov/zf2-authentication/master/LICENSE
+ * @license https://raw.githubusercontent.com/kanellov/zf2-hydrator/master/LICENSE
  */
 
 namespace Knlv\Zf2\Hydrator\Strategy;
