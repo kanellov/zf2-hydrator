@@ -1,0 +1,37 @@
+{
+    "name": "kanellov/zf2-hydrator",
+    "description": "Zend Framework 2 hydrator",
+    "version": "0.0.2",
+    "type": "library",
+    "keywords": [
+        "zend framework", "hydrator"
+    ],
+    "homepage": "https://github.com/kanellov/zf2-hydrator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vassilis Kanellopoulos",
+            "email": "contact@kanellov.com",
+            "homepage": "http://kanellov.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "contact@kanellov.com",
+        "issues": "https://github.com/kanellov/zf2-hydrator/issues",
+        "source": "https://github.com/kanellov/zf2-hydrator"
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-stdlib": "~2.0"
+    },
+    "require-dev": {
+        "funkatron/funit": "0.6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Knlv\\": "src"
+        }
+    }
+
+}
