@@ -16,7 +16,11 @@ class MultilineTextStrategy implements StrategyInterface
 {
     public function extract($value)
     {
-        return implode(PHP_EOL, $value);
+        if (is_array($value)) {
+            return implode(PHP_EOL, $value);
+        }
+
+        return $value;
     }
 
     public function hydrate($value)
