@@ -1,7 +1,6 @@
 {
     "name": "kanellov/zf2-hydrator",
     "description": "Zend Framework 2 hydrator",
-    "version": "0.0.2",
     "type": "library",
     "keywords": [
         "zend framework", "hydrator"
